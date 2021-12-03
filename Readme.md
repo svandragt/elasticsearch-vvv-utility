@@ -6,7 +6,7 @@ This utility will set up [ElasticSearch](https://redis.io/) on your [VVV](https:
 
 ## Usage
 
-In your `vvv-customy.yml` file add under `extensions`:
+In your `config/config.yaml` file add under `extensions`:
 
 ```yml
 extensions:

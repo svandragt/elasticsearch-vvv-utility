@@ -2,7 +2,7 @@
 
 ElasticSearch utility for VVV
 
-This utility will set up [ElasticSearch](https://redis.io/) on your [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV).
+This utility will set up [ElasticSearch](https://www.elastic.co/elastic-stack/) on your [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV).
 
 ## Usage
 

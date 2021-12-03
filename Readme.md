@@ -1,6 +1,6 @@
 # ElasticSearch vvv utility
 
-ElasticSearch utility for VVV
+ElasticSearch utility for VVV. Based on the Redis utility by [Denis Žoljom](https://github.com/dingo-d), thanks!
 
 This utility will set up [ElasticSearch](https://www.elastic.co/elastic-stack/) on your [VVV](https://github.com/Varying-Vagrant-Vagrants/VVV).
 

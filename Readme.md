@@ -28,5 +28,5 @@ Once you add it, be sure you re-provision your VVV with `vagrant reload --provis
 
 ![image](https://user-images.githubusercontent.com/594871/144641741-75d50b83-1867-4991-9453-4beb127d0cfe.png)
 
-3. Create `public_html/wp-content/mu-plugins/elasticpress.php` with the contents of [elasticpress.php](https://github.com/svandragt/elasticsearch-vvv-utility/blob/master/public_html/wp-content/mu-plugins/elasticpress.php)
+3. Create `public_html/wp-content/mu-plugins/elasticpress.php` with the contents of [elasticpress.php](https://github.com/svandragt/elasticsearch-vvv-utility/blob/master/public_html/wp-content/mu-plugins/elasticpress.php) to avoid conflicts for multisite networks and multiple sites using a single index.
 4. To run the index run `wp elasticpress index --setup`.

@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-
+ESMAJORVERSION="7"
 echo "Setting up ElasticSearch"
 
 echo "Preparing"
 curl -fsSL https://artifacts.elastic.co/GPG-KEY-elasticsearch |  APT_KEY_DONT_WARN_ON_DANGEROUS_USAGE=1 apt-key add -
-echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | tee /etc/apt/sources.list.d/elastic-7.x.list
+echo "deb https://artifacts.elastic.co/packages/$ESMAJORVERSION.x/apt stable main" | tee /etc/apt/sources.list.d/elastic-$ESMAJORVERSION.x.list
 
 echo "Update packages"
 apt-get update

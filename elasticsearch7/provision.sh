@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+export DEBIAN_FRONTEND=noninteractive
+
 ESMAJORVERSION="7"
 echo "Setting up ElasticSearch"
 
